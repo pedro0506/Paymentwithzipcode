@@ -1,0 +1,28 @@
+{
+    "name": "psdev/paymentwithzipcode",
+    "description": "Module from range zip code configuration",
+    "require": {
+        "php":"~7.3|7.4"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Pedro D S Junior",
+            "email": "contato@psdev.com.br",
+            "homepage": "https://psdev.com.br",
+            "role": "..."
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4":{
+            "Psdev\\Paymentwithzipcode\\": ""
+        }
+    }
+}

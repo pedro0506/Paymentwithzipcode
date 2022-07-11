@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Psdev_Paymentwithzipcode::paymentwithzipcode" title="Psdev Paymentwithzipcode" module="Psdev_Paymentwithzipcode" sortOrder="51" resource="Psdev_Paymentwithzipcode::paymentwithzipcode"/>
+        <add id="Psdev_Paymentwithzipcode::range" title="Manage Ranges" module="Psdev_Paymentwithzipcode" sortOrder="10" action="Psdev_Paymentwithzipcode/range" resource="Psdev_Paymentwithzipcode::range" parent="Psdev_Paymentwithzipcode::paymentwithzipcode"/>
+        <add id="Psdev_Paymentwithzipcode::payment_configuration" title="Configuration" module="Psdev_Paymentwithzipcode" sortOrder="99" parent="Psdev_Paymentwithzipcode::paymentwithzipcode" action="adminhtml/system_config/edit/section/paymentwithzipcode" resource="Psdev_Paymentwithzipcode::paymentwithzipcode_configuration"/>
+    </menu>
+</config>
